@@ -10,7 +10,7 @@ role: PhD student
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🐼
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: 'https://www.stat.iastate.edu/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Welcome to my personal blog. I will combine two of my interests (Statistics and Sports) and usually write about sports analytics (mostly cricket).
+bio: Welcome to my personal blog. I will combine two of my interests (Statistics and Sports) and usually write about sports analytics (mostly cricket 🏏).
 
 #interests:
 #- Artificial Intelligence

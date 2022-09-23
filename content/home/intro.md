@@ -18,6 +18,6 @@ author: admin
 #  css_class: fullscreen
 ---
 
-🐈 Hey! I'm **Alice**, a data scientist at Google.
+Hey! I'm **Aditya**, a PhD student (statistics) at Iowa State University.
 
-Check out my [CV](/about/) and blog posts below 🌈
+Check out my blog posts (mostly repated to Cricket) below
