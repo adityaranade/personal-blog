@@ -18,7 +18,7 @@ organizations:
     url: 'https://www.stat.iastate.edu/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Welcome to my personal blog. I will combine two of my interests (Statistics and Sports) and usually write about sports analytics (mostly cricket 🏏).
+bio: Welcome to my personal blog. In this blog, I combine two of my interests (Statistics and Sports) and write about sports analytics (mostly cricket 🏏).
 
 #interests:
 #- Artificial Intelligence
@@ -64,4 +64,4 @@ social:
 #email: ""
 ---
 
-I am a PhD student studying Statistics at Iowa State University. I like analyzing data and here I am combine my love for Statistics and Sports to try my hand at sports analytics. I am always looking to improve so suggestions are always welcome.
+I am a PhD student studying Statistics at Iowa State University. I like analyzing data and here I combine my love for Statistics and Sports to try my hand at sports analytics. I am always looking to improve so suggestions are always welcome.

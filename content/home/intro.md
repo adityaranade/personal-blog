@@ -20,4 +20,4 @@ author: admin
 
 Hey! I'm **Aditya**, a PhD student (statistics) at Iowa State University.
 
-Check out my blog posts (mostly repated to Cricket) below
+Check out my blog posts (mostly related to Cricket) below
