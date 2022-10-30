@@ -52,6 +52,8 @@ A question that pops up in the mind is "Does the best team win the tournament". 
 
 We have the data available for 11 years (2011 - 2021)  for the league stage standings and the playoff results for the team topping the league stage from IPL official website which can be seen below
 
+{{< figure src="/ipl/team_position1.png" caption="Playoff structure in IPL" numbered="true" >}}
+
 We can observe, the team which tops the league stage has won the tournament only three 3 of 11 times which corresponds to approximately 27.27%. However, this is just the observation from 11 years so cannot be considered as the best indicator of probability. We will consider a Bayesian statistical model to calculate the probability of the team finishing the tournament as winner, runners up and third place.
 
 In simple terms, a Bayesian model is reconciliation of our belief ( 'prior' distribution) with the observed data (likelihood) to give the updated belief ('posterior' distribution). Here the information (prior, likelihood and posterior) is in the form of mathematical distribution functions.
