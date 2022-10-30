@@ -1,41 +1,22 @@
 ---
-title: Does the best team win the Indian Premier League ?
-subtitle: A simple analysis to check if the best team wins the league reveals a rather surprising result.
-
-# Summary for listings and search engines
-summary: A statistical analysis to check if the best team wins the Indian Premier league. Analysis indicates a rather surprising result.
-
-# Link this post with a project
+title: "Does the best team win the Indian Premier League ?"
+subtitle: A simple analysis to check if the best team wins the league reveals a rather
+  surprising result.
+date: "2020-12-13T00:00:00Z"
 projects: []
-
-# Date published
-date: '2020-12-13T00:00:00Z'
-
-# Date updated
-lastmod: '2020-12-13T00:00:00Z'
-
-# Is this an unpublished draft?
-draft: false
-
-# Show this page in the Featured widget?
-featured: false
-
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+summary: A statistical analysis to check if the best team wins the Indian Premier
+  league. Analysis indicates a rather surprising result.
+lastmod: "2020-12-13T00:00:00Z"
+draft: no
+featured: no
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bY4cqxp7vos)'
   focal_point: ''
   placement: 5
-  preview_only: false
-
-authors:
-  - admin
-
-tags:
-  - Analytics
-
-categories:
-  - Cricket
+  preview_only: no
+authors: admin
+tags: Analytics
+categories: Cricket
 ---
 
 Indian Premier League is an annual cricket league which is played under the T20 format. It was started in the year 2008 and has quickly gained popularity among cricket playing nations and has probably become one of the biggest sporting event in the Indian sports calendar.
@@ -52,7 +33,7 @@ A question that pops up in the mind is "Does the best team win the tournament". 
 
 We have the data available for 11 years (2011 - 2021)  for the league stage standings and the playoff results for the team topping the league stage from IPL official website which can be seen below
 
-{{< figure src="./table_position1.png" caption="Playoff structure in IPL" numbered="true" >}}
+{{< figure src="./table_position1.png" caption="Team finishing first during league stage" numbered="true" >}}
 
 We can observe, the team which tops the league stage has won the tournament only three 3 of 11 times which corresponds to approximately 27.27%. However, this is just the observation from 11 years so cannot be considered as the best indicator of probability. We will consider a Bayesian statistical model to calculate the probability of the team finishing the tournament as winner, runners up and third place.
 
