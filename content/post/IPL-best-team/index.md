@@ -44,8 +44,6 @@ The tournament is played between various teams based out of different cities in 
 
 The tournament followed a double round-robin format from 2008 - 2021 (except for the year 2011) where each team plays the other team twice (once at each team's 'home' ground). From the year 2022, the teams are divided into two groups and every team plays 14 games (twice against the teams in the same group, twice against one team from other group and once against the other teams from the other group). At the conclusion of the league stage, the top four teams qualify for the playoffs. For the first 3 years (2008-2010), the traditional semifinals and final approach was considered. From 2011, a playoff structure was introduced to award the top two teams with an additional chance to reach the finals. This ensured the competition stays relevant till the last game of the league stage as teams vie for top 2 position. The figure below explains the playoff structure.
 
-# {{< figure src="/ipl/playoff_structure.png" caption="Playoff structure in IPL" numbered="true" >}}
-
 ![png](./playoff_structure.png)
 
 The top two teams of the league stage have two chances to reach the final. The thought behind this playoff structure was that the top two teams should not be out of the tournament due to one bad day in the semi-finals.
@@ -84,7 +82,7 @@ $$(p_{1}, p_{2}, p_{3}) \sim Dirichlet(\alpha_{1}, \alpha_{2}, \alpha_{3}) $$
 
 We run this model on 11 years of the data available (2011 - 2021) and we get the credible interval for the posterior probabilities of finishing at each of the position
 
-# {{< figure src="/ipl/pos1.png" caption="Probabilities for team finishing first during the league stage" # numbered="true" >}}
+{{< figure src="/ipl/pos1.png" caption="Probabilities for team finishing first during the league stage"  numbered="true" >}}
 
 ![png](./pos2.png)
 
