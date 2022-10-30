@@ -82,9 +82,7 @@ $$(p_{1}, p_{2}, p_{3}) \sim Dirichlet(\alpha_{1}, \alpha_{2}, \alpha_{3}) $$
 
 We run this model on 11 years of the data available (2011 - 2021) and we get the credible interval for the posterior probabilities of finishing at each of the position
 
-{{< figure src="/ipl/pos1.png" caption="Probabilities for team finishing first during the league stage"  numbered="true" >}}
-
-![png](./pos2.png)
+{{< figure src="./pos1.png" caption="Probabilities for team finishing first during the league stage"  numbered="true" >}}
 
 The horizontal line indicates the plausible values for the probability of team finishing in a particular position and black point indicates the estimated value of the probability from the available data and model used.
 
@@ -96,9 +94,8 @@ So probably the best team in the league (team finishing first during league stag
 
 Let us perform the same analysis for the team which finishes at second position in the league stage. We will use the same model used for the team finishing first at the league stage. Using data from 11 years, we get the following plot
 
-{{< figure src="/ipl/pos2.png" caption="Probabilities for team finishing second during the league stage" numbered="true" >}}
+{{< figure src="./pos2.png" caption="Probabilities for team finishing second during the league stage" numbered="true" >}}
 
-![png](./pos2.png)
 
 We can see the probability of being winner is higher than the probability of finishing as runner's up or 3rd place. This means the team finishing second in the league stage will more often go on to win the tournament.
 
