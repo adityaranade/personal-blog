@@ -44,29 +44,17 @@ The tournament is played between various teams based out of different cities in 
 
 The tournament followed a double round-robin format from 2008 - 2021 (except for the year 2011) where each team plays the other team twice (once at each team's 'home' ground). From the year 2022, the teams are divided into two groups and every team plays 14 games (twice against the teams in the same group, twice against one team from other group and once against the other teams from the other group). At the conclusion of the league stage, the top four teams qualify for the playoffs. For the first 3 years (2008-2010), the traditional semifinals and final approach was considered. From 2011, a playoff structure was introduced to award the top two teams with an additional chance to reach the finals. This ensured the competition stays relevant till the last game of the league stage as teams vie for top 2 position. The figure below explains the playoff structure.
 
-![png](./playoff_structure.png "Playoff structure in IPL")
-
 {{< figure src="./playoff_structure.png" caption="Playoff structure in IPL" numbered="true" >}}
-
 
 The top two teams of the league stage have two chances to reach the final. The thought behind this playoff structure was that the top two teams should not be out of the tournament due to one bad day in the semi-finals.
 
 A question that pops up in the mind is "Does the best team win the tournament". In other words, does the team which finishes the league stage at the top of the table have the best chance to win the league. The team which finishes the league stage position 1 has won the most number of points (and in case of tied points, has a superior net run rate) and hence is considered the "best" team in the league. We would be tempted to say yes. But let's find out what the data says. 
 
-
-
 We have the data available for 11 years (2011 - 2021)  for the league stage standings and the playoff results for the team topping the league stage from IPL official website which can be seen below
-
 
 We can observe, the team which tops the league stage has won the tournament only three 3 of 11 times which corresponds to approximately 27.27%. However, this is just the observation from 11 years so cannot be considered as the best indicator of probability. We will consider a Bayesian statistical model to calculate the probability of the team finishing the tournament as winner, runners up and third place.
 
-
-
 In simple terms, a Bayesian model is reconciliation of our belief ( 'prior' distribution) with the observed data (likelihood) to give the updated belief ('posterior' distribution). Here the information (prior, likelihood and posterior) is in the form of mathematical distribution functions.
-
-
-
-Let us run the statistical model. The model we are going to use is as follows
 
 If we consider the random variable 'result' which indicates the position of the team at the end of the tournament. The team which finishes the league stage at the top of the table can finish at any position from 1 to 3 at the end of the tournament where 1 stands for winner, 2 stands for runner's up and 3 stands for 3rd place. Since the variable can take only 1 out of the 3 values, it follows a categorical distribution which is denoted as result ~ categorical($p_{1}, p_{2}, p_{3}$) where $p_{1}$, $p_{2}$ and $p_{3}$ indicates the probability of finishing at each of the position at the end of the tournament. 
 
