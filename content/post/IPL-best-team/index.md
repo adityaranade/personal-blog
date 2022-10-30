@@ -1,22 +1,41 @@
 ---
-title: "Does the best team win the Indian Premier League ?"
-subtitle: A simple analysis to check if the best team wins the league reveals a rather
-  surprising result.
-date: "2020-12-13T00:00:00Z"
+title: Does the best team win the Indian Premier League ?
+subtitle: A simple analysis to check if the best team wins the league reveals a rather surprising result.
+
+# Summary for listings and search engines
+summary: A statistical analysis to check if the best team wins the Indian Premier league. Analysis indicates a rather surprising result.
+
+# Link this post with a project
 projects: []
-summary: A statistical analysis to check if the best team wins the Indian Premier
-  league. Analysis indicates a rather surprising result.
-lastmod: "2020-12-13T00:00:00Z"
-draft: no
-featured: no
+
+# Date published
+date: '2020-12-13T00:00:00Z'
+
+# Date updated
+lastmod: '2020-12-13T00:00:00Z'
+
+# Is this an unpublished draft?
+draft: false
+
+# Show this page in the Featured widget?
+featured: false
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bY4cqxp7vos)'
   focal_point: ''
   placement: 5
-  preview_only: no
-authors: admin
-tags: Analytics
-categories: Cricket
+  preview_only: false
+
+authors:
+  - admin
+
+tags:
+  - Academic
+
+categories:
+  - Cricket
 ---
 
 Indian Premier League is an annual cricket league which is played under the T20 format. It was started in the year 2008 and has quickly gained popularity among cricket playing nations and has probably become one of the biggest sporting event in the Indian sports calendar.
