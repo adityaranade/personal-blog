@@ -27,7 +27,7 @@ The tournament followed a double round-robin format from 2008 - 2021 (except for
 
 {{< figure src="./playoff_structure.png" caption="Playoff structure in IPL" numbered="true" >}}
 
-The top two teams of the league stage have two chances to reach the final. The thought behind this playoff structure was that the top two teams should not be out of the tournament due to one bad day in the semi-finals.
+The top two teams of the league stage have two chances to reach the final. The thought behind this playoff structure was that the top two teams should not be out of the tournament due to one bad day in the semi-finals. 
 
 A question that pops up in the mind is "Does the best team win the tournament". In other words, does the team which finishes the league stage at the top of the table have the best chance to win the league. The team which finishes the league stage position 1 has won the most number of points (and in case of tied points, has a superior net run rate) and hence is considered the "best" team in the league. We would be tempted to say yes. But let's find out what the data says. 
 
