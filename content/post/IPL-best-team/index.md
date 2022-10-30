@@ -32,10 +32,10 @@ authors:
   - admin
 
 tags:
-  - Academic
+  - Analytics
 
 categories:
-  - Demo
+  - Cricket
 ---
 
 Indian Premier League is an annual cricket league which is played under the T20 format. It was started in the year 2008 and has quickly gained popularity among cricket playing nations and has probably become one of the biggest sporting event in the Indian sports calendar.
@@ -87,8 +87,6 @@ Let us perform the same analysis for the team which finishes at second position 
 
 {{< figure src="./pos2.png" caption="Probabilities for team finishing second during the league stage" numbered="true" >}}
 
-
 We can see the probability of being winner is higher than the probability of finishing as runner's up or 3rd place. This means the team finishing second in the league stage will more often go on to win the tournament.
 
-With this being said, the team which finishes the league stage at second position has the highest probability of winning the tournament. 
-
+With this being said, the team which finishes the league stage at second position has the highest probability of winning the tournament.
