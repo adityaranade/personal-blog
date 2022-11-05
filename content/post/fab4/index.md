@@ -1,9 +1,9 @@
 ---
-title: Fabulous 4 of Indian Cricket: Comparing yearly batting averages
-subtitle: A Bayesian hierarchical model to compare the yearly batting averages of the Indian test cricket team's fabulous four players from late 1990s and early 2000s. 
+title: Comparing yearly batting averages of the Fabulous Four players of Indian Test Cricket
+subtitle: A Bayesian hierarchical model to compare the yearly batting averages of the Indian test cricket team's fabulous four players from late 1990's and early 2000's. 
 
 # Summary for listings and search engines
-summary: A statistical analysis to compare the batting averages of the fabulous four players of Indian Test cricket team in the late 1990s and early 2000s. This analysis will help us answer some questions about who is the best among them.
+summary: A statistical analysis to compare the batting averages of the fabulous four players of Indian Test cricket team in the late 1990's and early 2000's. This analysis will help us answer some questions about who is the best among them.
 
 # Link this post with a project
 projects: []
@@ -44,6 +44,15 @@ Sachin Tendulkar, Rahul Dravid, Sourav Ganguly and VVS Laxman are usually dubbed
 We will have a look at the batting average of each of the player on a yearly basis and try to understand which of the player has been a consistent performer. Sachin Tendulkar made his test cricket debut in 1989 whereas Rahul Dravid, Sourav Ganguly and VVS Laxman made their debuts in the year 1996. Sourav Ganguly was the first to retire in 2008 followed by Rahul Dravid, VVS Laxman both of whom retired in the year 2012 and lastly Sachin Tendulkar retired in the year 2013.
 
 
+The career summary of the four players under consideration are as follows
+
+
+| Player           	| Matches 	| Innings 	| Runs  	| Average 	|
+|------------------	|-----------|-----------|---------|-----------|
+| Sachin Tendulkar 	| 200     	| 329     	| 15921 	| 53.78   	|
+| Rahul Dravid     	| 164     	| 286     	| 13288 	| 52.31   	|
+| Sourav Ganguly   	| 113     	| 188     	| 7212  	| 41.02   	|
+| VVS Laxman       	| 134     	| 225     	| 8781  	| 45.97   	|
 
 
 Since all the players have played more that 100 matches (and more that 150 innings), we can compare the yearly batting averages for them. However, we will get a little adventurous and use a Bayesian approach to calculate the credible intervals for yearly average for each of the player.
