@@ -46,21 +46,9 @@ We will have a look at the batting average of each of the player on a yearly bas
 
 The career summary of the four players under consideration are as follows
 
-+------------------+---------+---------+-------+---------+
-| Player           | Matches | Innings | Runs  | Average |
-+------------------+---------+---------+-------+---------+
-| Sachin Tendulkar | 200     | 329     | 15921 | 53.78   |
-+------------------+---------+---------+-------+---------+
-| Rahul Dravid     | 164     | 286     | 13288 | 52.31   |
-+------------------+---------+---------+-------+---------+
-| Sourav Ganguly   | 113     | 188     | 7212  | 41.02   |
-+------------------+---------+---------+-------+---------+
-| VVS Laxman       | 134     | 225     | 8781  | 45.97   |
-+------------------+---------+---------+-------+---------+
-
 
 | Player           	| Matches 	| Innings 	| Runs  	| Average 	|
-|------------------	|---------	|---------	|-------	|---------	|
+|------------------	|-----------|-----------|---------|-----------|
 | Sachin Tendulkar 	| 200     	| 329     	| 15921 	| 53.78   	|
 | Rahul Dravid     	| 164     	| 286     	| 13288 	| 52.31   	|
 | Sourav Ganguly   	| 113     	| 188     	| 7212  	| 41.02   	|
@@ -78,10 +66,6 @@ The Bayesian Hierarchical model we will use for each player is as follows
 
 {{< math >}}
 
-$$result \overset{\mathrm{i.i.d.}}{\sim} Categorical(p_{1}, p_{2}, p_{3}) $$
-
-$$(p_{1}, p_{2}, p_{3}) \sim Dirichlet(\alpha_{1}, \alpha_{2}, \alpha_{3}) $$
-
 $$Y_{i} \overset{\mathrm{i.i.d}}\sim N(\mu_{year[i]}, \sigma_{year[i]}^2)$$
 
 $$\mu_{year} \overset{ind}{\sim} N(\theta,\tau^2)$$
@@ -98,6 +82,6 @@ where $\mu_{0} = 50$ and $\tau_{0} = 10$ has been used which is consistent with 
 
 The model was run using a JAGS (Just Another Gibbs Sampler) which samples from the posterior distribution of the parameters. We will not go into much details about the individual parameters but use the parameters to come up with the credible intervals for the yearly average for all the players. We than combine the credible intervals for all the players into a single plot which can be found below.
 
-{{< figure src="./fab5.png" caption="Credible intervals for yearly averages for each of the players"  numbered="true" >}}
+{{< figure src="./fab4.png" caption="Credible intervals for yearly averages for each of the players"  numbered="true" >}}
 
 
