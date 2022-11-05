@@ -1,9 +1,9 @@
 ---
 title: Fabulous 4 of Indian Cricket: Comparing yearly batting averages
-subtitle: A Bayesian hierarchical model to compare the yearly batting averages of the Indian test cricket team's fabulous four players from late 1990's and early 2000's. 
+subtitle: A Bayesian hierarchical model to compare the yearly batting averages of the Indian test cricket team's fabulous four players from late 1990s and early 2000s. 
 
 # Summary for listings and search engines
-summary: A statistical analysis to compare the batting averages of the fabulous four players of Indian Test cricket team in the late 1990's and early 2000's. This analysis will help us answer some questions about who is the best among them.
+summary: A statistical analysis to compare the batting averages of the fabulous four players of Indian Test cricket team in the late 1990s and early 2000s. This analysis will help us answer some questions about who is the best among them.
 
 # Link this post with a project
 projects: []
@@ -87,16 +87,12 @@ The model was run using a JAGS (Just Another Gibbs Sampler) which samples from t
 
 We have the credible intervals for each of the four players from year 1989 to 2013. Year is indicated on the x axis and the horizontal lines corresponding to any of the year is the credible interval for yearly average. We use different colors to indicate which player the interval corresponds to. Purple colour corresponds to intervals for Sachin Tendulkar, red colour corresponds to intervals for Rahul Dravid, green colour corresponds to intervals for Sourav Ganguly and blue colour corresponds to intervals for VVS Laxman.
 
-If the particular player has not played in a particular year, then there will not be a interval (horizontal line) corresponding to the player for that particular year. Since none of the players except Sachin Tendulkar was playing test cricket from 1989 to 1995, there is only one interval for those year. Similarly there is no interval for Sourav Ganguly (green colour) from 2009 upto 2013 since he retired in 2008. 
-
+If the particular player has not played in a particular year, then there will not be a interval (horizontal line) corresponding to the player for that particular year. Since none of the players except Sachin Tendulkar was playing test cricket from 1989 to 1995, there is only one interval for those year. Similarly there is no interval for Sourav Ganguly (green colour) from 2009 upto 2013 since he retired in 2008.
 
 There are two characteristics which can be understood looking at any of the interval. The first is the width of interval which indicates how consistent the player was in any particular year. If the width of the interval is big, that indicates higher uncertainty about average for the particular player in that year. So we ideally want the interval to be as narrow as possible. 
 
 The second is the location of the interval which indicates the average of the player for a particular year. If the average is higher, the location of the inteval will be towards the right and if the average is on the lower side the interval will lie towards the left side. Ideally we want a interval to be towards the right side.
 
 Now that we have understood how to read the intervals, let us start comparing the intervals for players for different years. In professional sports, every player is bound to have some `good' years (narrow interval towards the right side) and 'bad' years (larger interval or interval towards the left side)
-
-
-
 
 There are 2 particular thing which we should look at, namely how narrow (or wide) the interval is and the location of the interval (towards the right or left). 
