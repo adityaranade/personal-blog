@@ -59,6 +59,14 @@ The career summary of the four players under consideration are as follows
 +------------------+---------+---------+-------+---------+
 
 
+| Player           	| Matches 	| Innings 	| Runs  	| Average 	|
+|------------------	|---------	|---------	|-------	|---------	|
+| Sachin Tendulkar 	| 200     	| 329     	| 15921 	| 53.78   	|
+| Rahul Dravid     	| 164     	| 286     	| 13288 	| 52.31   	|
+| Sourav Ganguly   	| 113     	| 188     	| 7212  	| 41.02   	|
+| VVS Laxman       	| 134     	| 225     	| 8781  	| 45.97   	|
+
+
 Since all the players have played more that 100 matches (and more that 150 innings), we can compare the yearly batting averages for them. However, we will get a little adventurous and use a Bayesian approach to calculate the credible intervals for yearly average for each of the player.
 
 
@@ -82,11 +90,11 @@ $$\theta \sim N(\theta_{0}, \tau_{0}^2)$$
 
 $$\tau \sim Uniform(10,100)$$
 
-$$\sigma_{year} \sim Uniform(10,100)$$
+$$\sigma_{year} \sim Uniform(10,200)$$
 
 {{< /math >}}
 
-where $\mu_{0} = 50$ and $\tau_{0} = 10$ will be given which is consistent with their career average
+where $\mu_{0} = 50$ and $\tau_{0} = 10$ has been used which is consistent with each of the player's career average.
 
 The model was run using a JAGS (Just Another Gibbs Sampler) which samples from the posterior distribution of the parameters. We will not go into much details about the individual parameters but use the parameters to come up with the credible intervals for the yearly average for all the players. We than combine the credible intervals for all the players into a single plot which can be found below.
 
