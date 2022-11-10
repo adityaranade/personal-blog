@@ -90,7 +90,7 @@ Now that we have understood how to read the intervals, let us start comparing th
 
 
 
-\bf{Against SENA countries}
+**Against SENA countries**
 
 For teams in the Indian subcontinent, test cricket against SENA countries (South Africa, England, New Zealand and Australia) are considered an good indicator of how good a player is.
 
@@ -102,7 +102,7 @@ Against England, Rahul Dravid seems to have the higher average followed by Soura
 
 All the players seem to have performed below par against South Africa. Among the four players, Sachin Tendulkar seems to have performed relatively better than then the other three players who seems to have a similar record against South Africa.
 
-\df{Against other countries}
+**Against other countries**
 
 Against Pakistan, Rahul Dravid has the highest average followed by Sourav Ganguly, Sachin Tendulkar and lastly VVS Laxman. 
 
