@@ -86,7 +86,7 @@ There are two characteristics which can be understood looking at any of the inte
 
 The second characteristic is the location of the interval which indicates the average of the player againt a particular opposition. If the average is higher, the location of the inteval will be towards the right and if the average is on the lower side the interval will lie towards the left side. Ideally we want a interval to be towards the right side.
 
-Now that we have understood how to read the intervals, let us start comparing the intervals for players against each of the opposition. In professional sports, every player seems to have a 'favored' opposition against whome the player playes extraordinarily well which will be indicated in the plot by a narrow interval towards the right side. Similarly every player has an opposition who they do not enjoy playing which will be indicated in the plot by a wide interval and/or interval towards the left side.
+Now that we have understood how to read the intervals, let us start comparing the intervals for players against each of the opposition. In professional sports, every player seems to have a 'favored' opposition against whom the player plays extraordinarily well which will be indicated in the plot by a narrow interval towards the right side. Similarly every player has an opposition who they do not enjoy playing which will be indicated in the plot by a wide interval and/or interval towards the left side.
 
 
-
+The test match between India and Australia at Kolkata in 2001 is considered as the turning point in Indian test cricket. VVS Laxman's 281 in that match made him an overnight star.
