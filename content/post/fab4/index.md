@@ -89,4 +89,26 @@ The second characteristic is the location of the interval which indicates the av
 Now that we have understood how to read the intervals, let us start comparing the intervals for players against each of the opposition. In professional sports, every player seems to have a 'favored' opposition against whom the player plays extraordinarily well which will be indicated in the plot by a narrow interval towards the right side. Similarly every player has an opposition who they do not enjoy playing which will be indicated in the plot by a wide interval and/or interval towards the left side.
 
 
-The test match between India and Australia at Kolkata in 2001 is considered as the turning point in Indian test cricket. VVS Laxman's 281 in that match made him an overnight star.
+
+\bf{Against SENA countries}
+
+For teams in the Indian subcontinent, test cricket against SENA countries (South Africa, England, New Zealand and Australia) are considered an good indicator of how good a player is.
+
+Australia was the most dominant opposition during the playing career of the four players. Australia tour of India in 2001 was a legendary series which was the turning point of Indian test cricket. The second test match in the series at Kolkata which India won while following on (an overwhelmingly difficult task) was nothing short of a legendary match. It is well know that Australia is VVS Laxman's favoured opposition. However, if we look at the interval's corresponding to Australia, we can see that Sachin Tendulkar has a better average than the other three players against Australia followed by VVS Laxman, Rahul Dravid and lastly Sourav Ganguly.
+
+Against New Zealand, Rahul Dravid seems to have the higher average followed by VVS Laxman, Sachin Tendulkar and lastly Sourav Ganguly. 
+
+Against England, Rahul Dravid seems to have the higher average followed by Sourav Ganguly, Sachin Tendulkar and lastly VVS Laxman. VVS Laxman seems to have unusually low interval for average against England.
+
+All the players seem to have performed below par against South Africa. Among the four players, Sachin Tendulkar seems to have performed relatively better than then the other three players who seems to have a similar record against South Africa.
+
+\df{Against other countries}
+
+Against Pakistan, Rahul Dravid has the highest average followed by Sourav Ganguly, Sachin Tendulkar and lastly VVS Laxman. 
+
+Against Sri Lanka, Sachin Tendulkar has the highest average followed by Rahul Dravid, Sourav Ganguly and lastly VVS Laxman. 
+
+Against West Indies, Rahul Dravid has the highest average followed by Sachin Tendulkar, VVS Laxman and lastly Sourav Ganguly. Sourav Ganguly has an unusually low interval for average against West Indies.
+
+
+All the players have played less than 10 innings against Zimbabwe and Bangladesh and hence the scores have more variation in them which can be seen by the wide intervals. So comparing the intervals for the players against these two teams is not meaningful.
